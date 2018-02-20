@@ -25,4 +25,11 @@ class Lab16Test {
 		assertEquals(shouldBe, test);
 	}
 
+	@Test
+	void testPrimeCounter2() {
+		int test = Lab16.getPrimes(6);
+		int shouldBe = 13;
+		assertEquals(shouldBe, test);
+	}
+
 }
